@@ -6,7 +6,7 @@ This code creates following variables:
 * Subject
 * Activity
 * Remaining variables contain measurement on mean and satandard deviation  of various variables for each subject of each activity. Eg: tBodyAcc-mean-X, tBodyAcc-std-X etc.    
-This are the tasks that *run_analysis.R* performs on **UCI HAR Dataset**:   
+These are the tasks that *run_analysis.R* performs on **UCI HAR Dataset**:   
 * Code reads the training datasets(*X_train.txt, y_train.txt, subject_train.txt*) and test datasets (*X_train.txt, y_test.txt, subject_test.R*) and merges into one single dataset
 (*x,y,subject*)   
 * It reads the *features.txt* file and extracts only the measurements on the mean and standard deviation for each measurement.
