@@ -5,7 +5,7 @@ The attached R script runs on data collected from the accelerometers from the Sa
 This code creates following variables:  
 * Subject
 * Activity
-* Remaining variables contain measurement on mean and satandard deviation  of various variables for each subject of each activity. Eg: tBodyAcc-mean-X, tBodyAcc-std-X etc.
+* Remaining variables contain measurement on mean and satandard deviation  of various variables for each subject of each activity. Eg: tBodyAcc-mean-X, tBodyAcc-std-X etc.    
 This are the tasks that *run_analysis.R* performs on **UCI HAR Dataset**:   
 * Code reads the training datasets(*X_train.txt, y_train.txt, subject_train.txt*) and test datasets (*X_train.txt, y_test.txt, subject_test.R*) and merges into one single dataset
 (*x,y,subject*)   
